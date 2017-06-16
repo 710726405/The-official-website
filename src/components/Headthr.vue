@@ -1,14 +1,13 @@
-<style scoped>
+<style >
   .head {
     position: relative;
-    height: 840px;
+    height: 680px;
     width: 100%;
-    /*background: red;*/
   }
 
   .nav {
     position: absolute;
-    z-index: 9;
+    z-index: 999;
     top: 0;
     display: flex;
     justify-content: space-around;
@@ -40,7 +39,7 @@
     justify-content: space-around;
   }
 
-  .nav-con div a{
+  .nav-con div a {
     box-sizing: border-box;
     padding-right: 90px;
     height: 100%;
@@ -54,17 +53,15 @@
     position: relative;
     height: 100%;
     width: 100%;
-    background: url("~assets/img/bannerbg.png") no-repeat center/cover;
-    display: flex;
-    justify-content: center;
+    background: url("~assets/img/bg.png") no-repeat center/cover;
   }
 
+
   .banner-top {
-    position: absolute;
-    left: 20%;
+    box-sizing: border-box;
     padding-top: 150px;
     color: white;
-    text-align: left;
+    text-align: center;
   }
 
   .banner-top p:first-child {
@@ -73,16 +70,16 @@
 
   }
 
-  .banner-top p:nth-child(2) {
-    height: 36px;
-    margin-top: 45px;
-    font-size: 36px;
-  }
+  /*.banner-top p:nth-child(2) {*/
+  /*height: 36px;*/
+  /*margin-top: 45px;*/
+  /*font-size: 36px;*/
+  /*}*/
 
   .banner-top p:last-child {
-    margin-top: 20px;
-    height: 28px;
-    font-size: 28px;
+    margin-top: 45px;
+    height: 36px;
+    font-size: 36px;
   }
 
   .banner-btm {
@@ -130,9 +127,8 @@
       </div>
       <div class="banner">
         <div class="banner-top">
-          <p>轻氧智能洗衣</p>
+          <p>智能洗衣</p>
           <p>WASHING INTELLIGENTLY</p>
-          <p>DEVOTO TO BUILD INTELLIGENT CAMPUS</p>
         </div>
         <div class="banner-btm">
           <div class="yellow">
@@ -148,7 +144,5 @@
 </template>
 
 <script type="javascript">
-  export default {
-
-  }
+  export default {}
 </script>

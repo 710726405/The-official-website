@@ -1,12 +1,8 @@
-<style>
+<style scoped>
     .head {
+      position: relative;
         height: 680px;
         width: 100%;
-        /*background: red;*/
-    }
-
-    .head, .content, .adv-f5, .exh-f3, .foot {
-
     }
 
     .nav {
@@ -57,18 +53,15 @@
         position: relative;
         height: 100%;
         width: 100%;
-        background-image: url("~assets/img/bg.png");
-        /*background-color: #f90;*/
-        background-size: cover;
+        background: url("~assets/img/bg.png") no-repeat center/cover;
+
     }
 
     .banner-top {
-        position: absolute;
-        /*top: 22.74%;*/
-        top: 18.22%;
-        left: 23.125%;
+      box-sizing: border-box;
+      padding-top: 150px;
         color: white;
-        text-align: left;
+        text-align: center;
     }
 
     .banner-top p:first-child {
@@ -77,16 +70,16 @@
 
     }
 
-    .banner-top p:nth-child(2) {
-        height: 36px;
-        margin-top: 45px;
-        font-size: 36px;
-    }
+    /*.banner-top p:nth-child(2) {*/
+        /*height: 36px;*/
+        /*margin-top: 45px;*/
+        /*font-size: 36px;*/
+    /*}*/
 
     .banner-top p:last-child {
-        margin-top: 20px;
-        height: 28px;
-        font-size: 28px;
+        margin-top: 45px;
+        height:36px;
+        font-size: 36px;
     }
 
     .banner-btm {
@@ -133,11 +126,10 @@
                 </div>
             </div>
             <div class="banner">
-                <div class="banner-top">
-                    <p>轻氧智能洗衣</p>
-                    <p>WASHING INTELLIGENTLY</p>
-                    <!--<p>DEVOTO TO BUILD INTELLIGENT CAMPUS</p>-->
-                </div>
+              <div class="banner-top">
+                <p>商务合作</p>
+                <p>MARKER COOPERATION</p>
+              </div>
                 <div class="banner-btm">
                     <div class="yellow">
                         <!--ffcc01-->

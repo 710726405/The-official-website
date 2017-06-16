@@ -1,9 +1,10 @@
-<style>
+<style scoped>
   .head {
+    position: relative;
     height: 680px;
     width: 100%;
-    /*background: red;*/
   }
+
   .nav {
     position: absolute;
     z-index: 999;
@@ -52,39 +53,33 @@
     position: relative;
     height: 100%;
     width: 100%;
-    background-image: url("~assets/img/bg.png");
-    /*background-color: #f90;*/
-    background-size: cover;
-    display: flex;
-    justify-content: center;
+    background: url("~assets/img/bg.png") no-repeat center/cover;
+
   }
 
+
   .banner-top {
-    position: absolute;
-    /*top: 22.74%;*/
-    top: 18.22%;
-    /*left: 23.125%;*/
+    box-sizing: border-box;
+    padding-top: 150px;
     color: white;
-    text-align: left;
+    text-align: center;
   }
 
   .banner-top p:first-child {
-    height: 66px;;
-    font-size: 66px;
-    text-align: center;
+    height: 86px;
+    font-size: 8.6em;
 
   }
 
-  .banner-top p:nth-child(2) {
-    height: 38px;
-    margin-top: 48px;
-    font-size: 38px;
-  }
+  /*.banner-top p:nth-child(2) {*/
+  /*height: 36px;*/
+  /*margin-top: 45px;*/
+  /*font-size: 36px;*/
+  /*}*/
 
   .banner-top p:last-child {
-    margin-top: 20px;
-    height: 28px;
-    font-size: 28px;
+    height:36px;
+    font-size: 36px;
   }
 
   .banner-btm {
@@ -117,7 +112,7 @@
         </div>
         <div class="nav-con">
           <div>
-            <router-link to="/index">首页</router-link>
+            <router-link to="/">首页</router-link>
           </div>
           <div>
             <router-link to="/content">智能洗衣</router-link>
@@ -132,8 +127,8 @@
       </div>
       <div class="banner">
         <div class="banner-top">
-          <!--<p>{{message}}</p>-->
-          <!--<p>{{msg}}</p>-->
+          <p>关于我们</p>
+          <p>ABOUT US</p>
         </div>
         <div class="banner-btm">
           <div class="yellow">
@@ -150,7 +145,6 @@
 
 <script type="javascript">
   export default {
-//    props: ['service'],
-//    props: ['services']
+
   }
 </script>

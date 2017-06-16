@@ -3,17 +3,17 @@
     height: 582px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     box-sizing: border-box;
+    background: #f2f7fa;
   }
 
   .content .content-con {
-    background: #f2f7fa;
-    width: 100%;
+    width: 1120px;
     display: flex;
     justify-content: space-around;
     box-sizing: border-box;
-    padding: 0 20%;
+    padding: 0 10%;
   }
 
   .content-con .content-left div {
@@ -21,6 +21,7 @@
   }
 
   .content-con .content-phone {
+    margin-left: 57px;
     margin-top: -70px;
     z-index: 999999;
   }
@@ -42,6 +43,7 @@
 
   .adv-f1 {
     min-width: 140px !important;
+    text-align: center;
   }
 
   .adv-f5 .adv-f1 p:first-child {
@@ -143,10 +145,10 @@
             <img src="~assets/img/sm.png" alt="扫码">
           </div>
           <div>
-            <img src="~assets/img/xy.png" alt="洗衣">
+            <img src="~assets/img/zf.png" alt="支付">
           </div>
           <div>
-            <img src="~assets/img/zf.png" alt="支付">
+            <img src="~assets/img/xy.png" alt="洗衣">
           </div>
         </div>
         <div class="content-phone">
@@ -225,8 +227,7 @@
             <li>洗前桶自净，臭氧杀菌，卫生健康</li>
             <li>高品质，核心部件10000周期寿命保证</li>
             <li>标准，大物，快速，单脱4种程序可选</li>
-            <li>内置网络，自动联网，24小时在线，硬件 <br>
-              <br>故障后台自动报警
+            <li>内置网络，自动联网，24小时在线，硬 <br><br>件故障后台自动报警
             </li>
           </ul>
         </div>
@@ -243,7 +244,7 @@
             <li>半小时省时省力，立等立穿</li>
             <li>不锈钢内筒，使用寿命长</li>
             <li>三种安装方式，优化使用空间</li>
-            <li>自动限温设计安全放心，特有恒温，限温 <br><br>双重保护</li>
+            <li>自动限温设计安全放心，特有恒温，限<br><br>温双重保护</li>
           </ul>
         </div>
       </div>
