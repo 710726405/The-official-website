@@ -1,14 +1,9 @@
 <style>
   .head {
-    height: 840px;
+    height: 680px;
     width: 100%;
     /*background: red;*/
   }
-
-  .head, .content, .adv-f5, .exh-f3, .foot {
-
-  }
-
   .nav {
     position: absolute;
     z-index: 999;
@@ -57,30 +52,33 @@
     position: relative;
     height: 100%;
     width: 100%;
-    background-image: url("~assets/img/bannerbg.png");
+    background-image: url("~assets/img/bg.png");
     /*background-color: #f90;*/
     background-size: cover;
+    display: flex;
+    justify-content: center;
   }
 
   .banner-top {
     position: absolute;
     /*top: 22.74%;*/
     top: 18.22%;
-    left: 23.125%;
+    /*left: 23.125%;*/
     color: white;
     text-align: left;
   }
 
   .banner-top p:first-child {
-    height: 86px;;
-    font-size: 86px;
+    height: 66px;;
+    font-size: 66px;
+    text-align: center;
 
   }
 
   .banner-top p:nth-child(2) {
-    height: 36px;
-    margin-top: 45px;
-    font-size: 36px;
+    height: 38px;
+    margin-top: 48px;
+    font-size: 38px;
   }
 
   .banner-top p:last-child {
@@ -119,7 +117,7 @@
         </div>
         <div class="nav-con">
           <div>
-            <router-link to="/">首页</router-link>
+            <router-link to="/index">首页</router-link>
           </div>
           <div>
             <router-link to="/content">智能洗衣</router-link>
@@ -134,9 +132,8 @@
       </div>
       <div class="banner">
         <div class="banner-top">
-          <p>轻氧智能洗衣</p>
-          <p>WASHING INTELLIGENTLY</p>
-          <p>DEVOTO TO BUILD INTELLIGENT CAMPUS</p>
+          <!--<p>{{message}}</p>-->
+          <!--<p>{{msg}}</p>-->
         </div>
         <div class="banner-btm">
           <div class="yellow">
@@ -153,6 +150,7 @@
 
 <script type="javascript">
   export default {
-
+//    props: ['service'],
+//    props: ['services']
   }
 </script>

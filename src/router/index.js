@@ -10,13 +10,13 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
-      path: '/index',
+      path: '/',
       name: 'Index',
       component: Index
     },
     {
       path: '/content',
-      name: 'Body',
+      name: 'Content',
       component: Content
     },
     {path: '/about_me', name: 'AboutMe', component: AboutMe},
